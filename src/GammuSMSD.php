@@ -5,7 +5,7 @@ namespace AKBurko;
 class GammuSMSD
 {
     /**
-     * Create a new Skeleton Instance
+     * Create a new GammuSMSD Instance
      */
     public function __construct()
     {
