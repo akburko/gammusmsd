@@ -25,12 +25,12 @@
     },
     "autoload": {
         "psr-4": {
-            "AKBurko\\GammuSMSD\\": "src"
+            "AKBurko\\Gammu\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "AKBurko\\GammuSMSD\\": "tests"
+            "AKBurko\\Gammu\\": "tests"
         }
     },
     "scripts": {

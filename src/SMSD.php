@@ -1,8 +1,8 @@
 <?php
 
-namespace AKBurko;
+namespace AKBurko\Gammu;
 
-class GammuSMSD
+class SMSD
 {
     /**
      * Create a new GammuSMSD Instance
