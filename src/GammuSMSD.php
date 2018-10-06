@@ -1,6 +1,6 @@
 <?php
 
-namespace AKBurko;
+namespace GammuSMSD;
 
 class GammuSMSD
 {
