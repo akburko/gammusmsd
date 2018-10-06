@@ -1,7 +1,7 @@
 {
     "name": "akburko/gammusmsd",
     "type": "library",
-    "description": ":package_description",
+    "description": "Library for Gammu SMSD",
     "keywords": [
         "akburko",
         "gammusmsd"
