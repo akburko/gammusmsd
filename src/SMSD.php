@@ -18,7 +18,8 @@ class SMSD
      */
     public function getInboxList()
     {
-        $stmt = $this->_db->prepare("SELECT * FROM `inbox` limit 1");
+        $stmt = $this->_db->prepare("SELECT * FROM `inbox` limit 10");
+        $stmt->execute();
         return json_encode($stmt->fetchAll());
     }
 
