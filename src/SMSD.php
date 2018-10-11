@@ -4,12 +4,22 @@ namespace AKBurko\Gammu;
 
 class SMSD
 {
+    private $_db;
     /**
      * Create a new GammuSMSD Instance
      */
     public function __construct()
     {
-        // constructor body
+        $this->_db = new \PDO("localhost", "root");
+    }
+
+    /*
+     *  Getting the list of the inbox table
+     */
+    public function getInboxList()
+    {
+        $stmt = $this->_db->prepare("SELECT * FROM `inbox` limit 1");
+        return json_encode($stmt->fetchAll());
     }
 
     /**
