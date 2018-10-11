@@ -10,7 +10,7 @@ class SMSD
      */
     public function __construct()
     {
-        $this->_db = new \PDO("localhost", "root");
+        $this->_db = new \PDO("mysql:host=localhost;dbname=planetcms;charset=utf-8", "root");
     }
 
     /*
